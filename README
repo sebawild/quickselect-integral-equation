@@ -1,0 +1,14 @@
+Use cmake to build:
+	mkdir build
+	cd build
+	cmake -DCMAKE_BUILD_TYPE=Release ..
+	make
+	./integral-eq
+
+Output is written to a file in the working directory.
+(It is a list of xy-pairs in the format usable in Mathematica's ListPlot command.)
+
+There is no proper user interface as of now (sorry ...);
+the algorithm has to be changed inside main.cpp and recompiled.
+
+
